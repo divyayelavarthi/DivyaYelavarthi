@@ -1,0 +1,121 @@
+.exp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 60px 170px;
+}
+.exp-title{
+    position: relative;
+
+}
+.exp-title h1{
+    padding: 0px 60px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.exp-sections{
+    display:flex;
+    gap: 80px;
+}
+.exp-right{
+    display:flex;
+    flex-direction: column;
+    gap:25px;
+}
+.exp-para{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 250;
+    text-align: justify;
+}
+.exp-skills{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    background: linear-gradient(270deg, #DA7C25 10%, #B923E1 100%);
+    -webkit-background-clip: text; /* Use the background as text color */
+    -webkit-text-fill-color: transparent; /* Makes the background visible */
+    background-clip: text; /* For non-WebKit browsers */
+    color: transparent; /* Fallback */
+}
+.exp-left1 img{
+    height:150px;
+    width:200px;
+    margin-top: 90px;
+}
+.exp-left2 img{
+    height:150px;
+    width:200px;
+    margin-top:3px;
+}
+@media(max-width:1024px){
+    .exp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 0 auto;
+    }
+    .exp-title{
+        position: relative;
+    }
+    .exp-title h1{
+        padding: 0px;
+        font-size: 50px;
+    }
+    .exp-sections{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .exp-right{
+        display:flex;
+        flex-direction: column;
+        gap:25px;
+        padding: 10px 40px;
+    }
+    .exp-para{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 16px;
+        font-weight: 250;
+        text-align: justify;
+    }
+    .exp-skills{
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 0px;
+        background: linear-gradient(270deg, #DA7C25 10%, #B923E1 100%);
+        -webkit-background-clip: text; /* Use the background as text color */
+        -webkit-text-fill-color: transparent; /* Makes the background visible */
+        background-clip: text; /* For non-WebKit browsers */
+        color: transparent; /* Fallback */
+    }
+    .exp-left1 img{
+        margin-top: 20px;
+        height:150px;
+        width:200px;
+    }
+    .exp-left2 img{
+        height:150px;
+        width:200px;
+    }
+    .exp-skill p{
+        text-align: left;
+        font-size: 22px;
+        font-weight: 800;
+    }
+}
