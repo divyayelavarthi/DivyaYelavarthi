@@ -1,12 +1,16 @@
 {
+  "homepage": "https://divyayelavarthi.github.io/DivyaYelavarthi",
   "name": "portfolio-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "react-scripts start",
+    "predeploy" : "npm run build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "deploy" : "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
